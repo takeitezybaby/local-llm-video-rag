@@ -1,0 +1,42 @@
+[
+      {
+            "start": 0.0,
+            "end": 3.36,
+            "text": " In Python programming, list is a very important data type."
+      },
+      {
+            "start": 3.36,
+            "end": 8.8,
+            "text": " If you want to store 10, 15, 20 things in a particular entity,"
+      },
+      {
+            "start": 8.8,
+            "end": 10.16,
+            "text": " then you can make a list of it."
+      },
+      {
+            "start": 10.16,
+            "end": 13.48,
+            "text": " For example, you can make a list of marks of students of class 8,"
+      },
+      {
+            "start": 13.48,
+            "end": 16.44,
+            "text": " or you can make a list of people living in Europe,"
+      },
+      {
+            "start": 16.44,
+            "end": 21.04,
+            "text": " or you can make a list of people enrolled in 100 days of code Python."
+      },
+      {
+            "start": 21.04,
+            "end": 24.84,
+            "text": " By making all these lists, you can perform some operations on them,"
+      },
+      {
+            "start": 24.84,
+            "end": 28.44,
+            "text": " you can iterate them, and you can call them by one name."
+      }
+]
