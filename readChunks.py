@@ -7,7 +7,7 @@ import pandas as pd
 def createEmbeddings(text) :
       r=requests.post("http://localhost:11434/api/embed",json= #http://localhost:11434/api/embed
                       {
-                            "model":"bge-m3",
+                            "model":"nomic-embed-text",
                             "input":text
                       })
       embedding = r.json()["embeddings"] #extracting only embeddings
