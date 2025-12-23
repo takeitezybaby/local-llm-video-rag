@@ -2,6 +2,7 @@ import json
 import os
 import requests
 import pandas as pd
+import joblib
 
 #Using ollama model to read chunks
 def createEmbeddings(text) :
@@ -31,4 +32,4 @@ for json_file in files :
             data.append(chunk)
 
 df = pd.DataFrame.from_records(data)
-print(df)
+joblib.dump(df,"embeddingData.joblib")
