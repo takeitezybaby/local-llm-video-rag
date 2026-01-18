@@ -1,0 +1,464 @@
+[
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 0.0,
+        "end": 9.28,
+        "text": " So guys, we have come a long way in 100 days of code and now we are going to see what are the methods of the list with which we can manipulate the list Let's go to the computer screen"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 9.28,
+        "end": 29.28,
+        "text": " and let's get started Intro Now we are going to see the list methods that what are the methods of the list and we will understand how the list is manipulated"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 29.36,
+        "end": 39.92,
+        "text": " So suppose I have a list here I write l is equal to 1, 2 let us say 4 and then 6 I will print l, the list will be printed you all know this"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 39.92,
+        "end": 48.8,
+        "text": " But if I append l. and then write 7 So what is append? It is a method of the list It is a method of the list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 48.8,
+        "end": 59.2,
+        "text": " which at the end of this list will keep 7 So if I print l now then my original list has been changed and now 7 is also there at the end"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 59.2,
+        "end": 66.64,
+        "text": " So what we can do is we can add the element at the end of the list with the help of append method Okay? There are many such methods of our list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 66.64,
+        "end": 76.48,
+        "text": " Let's see them one by one If I run l.sort here and I do one thing I put 11 at the start and then put 45"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 76.48,
+        "end": 85.36,
+        "text": " What I will do is I will run all the methods one by one If I put l.sort here like this, l.sort I have not put a comma here"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 85.36,
+        "end": 94.08,
+        "text": " I will put a comma If I do l.sort, then it will be sorted in my list 1, 2, 4, 6, 11, 45 So what will happen here It will be sorted in my increasing order"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 94.08,
+        "end": 104.48,
+        "text": " and ascending order If I do reverse is equal to true then it will be sorted in my descending order So you can see here First is the biggest, then the smallest"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 104.48,
+        "end": 111.36000000000001,
+        "text": " and so on Okay? So this is how we can do it with the help of sort method So you can see here"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 111.36000000000001,
+        "end": 119.44,
+        "text": " I have written this thing After this, there is a reverse method Okay? l.reverse What does l.reverse do?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 119.44,
+        "end": 126.48,
+        "text": " It reverses our original list That's about it Okay? So what does it do? It reverses a list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 126.48,
+        "end": 134.88,
+        "text": " Okay? It changes the original list Now l.index is a method If I write l.index and I write 1 So it will give me the index of 1 in the list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 134.88,
+        "end": 143.36,
+        "text": " which is 2 Okay? So I have not printed here Actually, I should print this because it returns a value to me"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 143.36,
+        "end": 151.35999999999999,
+        "text": " and what will this value be? It will be 2 See here, this is 2 value 1 is on index 2 If I put one more 1 at the end"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 151.35999999999999,
+        "end": 157.76,
+        "text": " then what will it give me? It will give me 2 only which is the index of first occurrence Okay? So it is written here"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 157.76,
+        "end": 166.48,
+        "text": " This method returns the index of the first occurrence of the list item Okay? So this is one method Now let's see what count method does Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 166.48,
+        "end": 174.16,
+        "text": " What does count method do? If I want to count how many times 1 is coming Okay? So I can count 2 times are coming in this list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 174.24,
+        "end": 180.72,
+        "text": " So 2 is seen here If I put one more 1 then 3 will come here because 1 is coming in this list 3 times Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 180.72,
+        "end": 187.92,
+        "text": " So you will see 3 here This was count method After this, there is a copy method But to explain the copy method I want to show you one thing"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 187.92,
+        "end": 197.68,
+        "text": " If I do something like this I say m is equal to l Now I do m0 is equal to 0 Okay? And after this I print l"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 197.68,
+        "end": 207.92000000000002,
+        "text": " So if you are coming from any other programming language Or you will try to evaluate and manipulate it in very layman terms You will say that l is a list I printed it This will be printed"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 207.92000000000002,
+        "end": 219.68,
+        "text": " Very good Then you will say that I made another list named m The content in it is as much as l That is, the content in l will come in m And after that, now because m has become a new list"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 219.68,
+        "end": 225.92000000000002,
+        "text": " I am telling you how a beginner will think I am telling you this Okay? Keep in mind It is right or wrong"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 225.92000000000002,
+        "end": 233.84,
+        "text": " We will talk later m is equal to l Someone will think like this And then from m0 is equal to 0 He will think that I will change in the list of m"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 233.84,
+        "end": 241.28,
+        "text": " And l will remain like this And expect that this thing will be printed again But to your surprise Now see My original list has changed"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 241.28,
+        "end": 248.0,
+        "text": " So what happens here When we do m is equal to l So m is a reference of l Okay? The list is the same"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 248.72000000000003,
+        "end": 257.04,
+        "text": " The list that is made in the memory is the same So now if you do m is equal to l here So And after that you will change m So l will also change"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 257.04,
+        "end": 264.0,
+        "text": " Because you have made a reference And such things are not recommended at all in the Python program You don't do Until and unless you know what you are doing Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 264.0,
+        "end": 272.0,
+        "text": " If you are a beginner Don't make a new list like this You use the copy function So if I write m is equal to l.copy So what will it do?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 272.0,
+        "end": 280.64000000000004,
+        "text": " It will make a copy of the list And now that thing will happen What you were expecting That m is equal to 0 So only m will change"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 280.64000000000004,
+        "end": 285.52000000000004,
+        "text": " We did not change l So l will remain the same So see here The same thing happened Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 285.52000000000004,
+        "end": 294.32000000000005,
+        "text": " I hope you understood this thing I have already told you the append method I will tell you an extend method Okay? But before that I will tell you the insert method"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 294.32000000000005,
+        "end": 301.12,
+        "text": " If you want to insert in a given index Then you can do it Okay? I will show you how So I will comment out this thing"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 301.92,
+        "end": 311.76000000000005,
+        "text": " And what will I do here? I will write l.insert I want to insert 899 on one index So the index of 899 in the new list will be 1 Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 311.76000000000005,
+        "end": 321.12,
+        "text": " So see 0,1 So in this way it will insert That the index of 899 in the list will be 1 Okay? I hope this is clear"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 321.12,
+        "end": 328.88000000000005,
+        "text": " Okay? So here you can see That by doing l.insert 1,899 899 will come after 11 Because only then its index will be 1"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 329.44000000000005,
+        "end": 336.0,
+        "text": " Okay? I hope you understood this thing Last but not the least Why am I saying this? Last but not the least"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 336.0,
+        "end": 341.92,
+        "text": " You can use the extend method There are many methods of list Okay? You I mean even today I find some methods"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 341.92,
+        "end": 345.6,
+        "text": " Of some data type In python I say Oh wow! This also exists"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 345.6,
+        "end": 352.88,
+        "text": " So you will always learn new things But what I am telling you here The things that are written in the notes All of them You people"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 353.52,
+        "end": 359.12,
+        "text": " Always remember Always understand this Because that is the most important And mostly used Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 359.12,
+        "end": 367.68,
+        "text": " Great With that said I will make a new list I say m is equal to 900, 1000 and 1100"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 367.68,
+        "end": 375.2,
+        "text": " Assume I made this list Now I say l.extend And I say m So this means"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 375.2,
+        "end": 381.2,
+        "text": " Open m And put it at the end of l This is the simple meaning of this Okay? I will show you"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 381.2,
+        "end": 386.0,
+        "text": " I will run it You will understand what I am saying Open l Bring the values inside it And"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 386.0,
+        "end": 395.59999999999997,
+        "text": " Open m and put it at the end of l Open m and put it at the end of l It is simple It is very simple There is nothing confusing"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 395.59999999999997,
+        "end": 403.76,
+        "text": " 900, 1000 and 1100 will append at the end of this By extending Okay? Now if you want to join two lists And you want to concatenate"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 403.76,
+        "end": 413.2,
+        "text": " There is another way Assume I want to make a k with l and m And I say k is equal to l plus m So the elements of both these lists Will get concatenated"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 413.2,
+        "end": 420.8,
+        "text": " If I want l to not change By extending l.extend My l will change But if I want a new list to be made Merging l and m"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 420.8,
+        "end": 430.08,
+        "text": " Then I can do that by saying k is equal to l plus m Now if I print k Then what will happen? If I print k Then l and m will get concatenated"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 430.08,
+        "end": 436.8,
+        "text": " Will merge Okay? So by doing k is equal to l plus m You see That this thing is getting printed here"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 436.8,
+        "end": 445.28,
+        "text": " Okay? So by doing k is equal to l plus m L and m will merge And the new list will be made with k Okay?"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 445.28,
+        "end": 458.08,
+        "text": " I hope this thing is clear You enjoyed listening to the methods of the list And I hope you have understood this thing very well If you have not accessed this playlist yet Then do access it"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 458.08,
+        "end": 467.2,
+        "text": " Do it day by day Accept the 100 days of code challenge Many people were writing to me in the comments That their streak has broken They saw till day 12, day 10, day 11"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 467.2,
+        "end": 476.4,
+        "text": " And then missed for some reason That's totally fine Why? I will tell you Because this is 100 days of code And not 100 consecutive days of code"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 476.4,
+        "end": 483.2,
+        "text": " If you do 100 consecutive days of code Brownie points for you, bonus for you It's a very good thing You will feel proud But for some reason"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 483.2,
+        "end": 491.6,
+        "text": " You think for yourself If you do it till day 11 And you have to go somewhere for 2 days And you can't do it Then that's totally fine"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 491.6,
+        "end": 501.6,
+        "text": " Because if you don't continue, then you will face a loss But if you continue And give yourself a new challenge That I did it till day 11 consecutively Now I will start it from day 12"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 501.6,
+        "end": 511.6,
+        "text": " And I will take it to 100 consecutively Accept this challenge again And I want to tell you one more thing If due to any emergency Something happened that you could not avoid"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 511.6,
+        "end": 521.6,
+        "text": " Like suppose you have an exam at school Or suppose you have to go to give practical Or suppose you have a job Then you have a meeting and you come home at 10-11 pm And the next day you have to go to office again at 9 am"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 521.6,
+        "end": 531.6,
+        "text": " That's totally understandable You can give yourself a break for that day But if you think That I did it till day 11 And now my streak is broken"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 531.6,
+        "end": 541.6,
+        "text": " So I will not do it So you can't take a bigger loss than that You can't do a bigger stupidity than that So with that said You guys complete it"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 541.6,
+        "end": 551.6,
+        "text": " 100 days of code as long as you complete It should be fine You will be proud of yourself That's it for now Thank you so much for watching this video"
+    },
+    {
+        "Video number": "2",
+        "Title": "Lists method",
+        "start": 551.6,
+        "end": 553.6,
+        "text": " And I will see you next time"
+    }
+]

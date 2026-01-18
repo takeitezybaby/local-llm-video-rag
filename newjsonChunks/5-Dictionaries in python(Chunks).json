@@ -1,0 +1,338 @@
+[
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 0.0,
+        "end": 17.92,
+        "text": " In our homes, there are dictionaries where we see the meanings of words. In today's video, we will talk about the dictionary of Python. The dictionary in Python is also very similar. You can see the corresponding values of the key. Like in our normal Oxford dictionary, the key is the word we want to see the meaning of."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 17.92,
+        "end": 32.72,
+        "text": " And the value is the actual meaning. We can make this kind of dictionary personal in Python programming. And it will be a lot of fun when we see its methods. And we will see where and how it can be used. Basically, the access to this is very fast."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 32.72,
+        "end": 46.239999999999995,
+        "text": " Because the dictionary has its own index. So if you have a lot of elements in your dictionary. And you want to see the corresponding value of a key. Then you don't have to scan the whole dictionary one by one. You can directly reach its index and find out the value."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 46.239999999999995,
+        "end": 65.12,
+        "text": " Let's go to the computer screen and see how all these things are done. What are the methods of the dictionary? Let's get started. So, like we have a dictionary at home. Oxford dictionary, in which we see the word meanings."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 65.12,
+        "end": 84.48,
+        "text": " The same kind of dictionary is also in Python. This is one of the 100 things. And if I show you a very simple dictionary. And I write like this. And I write spoon."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 84.48,
+        "end": 99.2,
+        "text": " And I write object. And I put the mapping like this. And finally I print dict. And then something like this, Harry. So I can access the human being."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 99.2,
+        "end": 109.92,
+        "text": " So the combination of key value pairs. This is one of the 100 things. Now here it is saying that type object is not a subscriptable. What is this? So I made it with the name DIC."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 109.92,
+        "end": 124.0,
+        "text": " I didn't make it with the name DICT. So you can see here that the human being has been printed. So dictionary is a very simple thing. Combination of key value pairs. You can use it to store the marks of a particular class of children."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 124.0,
+        "end": 146.23999999999998,
+        "text": " You can use it to store the roll number of the person who has come. You can map the employee ID with the employee name. Basically you can make a mapping. Like if I want to use an integer. Like 344 is the employee ID of Harry."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 146.23999999999998,
+        "end": 166.23999999999998,
+        "text": " Like 56 is the employee ID of Shubham. And 678 is the employee ID of Zakir. And 567 is the employee ID of Neha. So if I write 567 here. Will I get Neha?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 166.23999999999998,
+        "end": 175.84,
+        "text": " Will I get Neha or not? I will get Neha. Why not? So I will get Neha only because it is Neha corresponding to 567. So this is how we can work with dictionaries."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 175.84,
+        "end": 194.32,
+        "text": " Now you see. Dictionaries are ordered collection of data items. They store multiple items in a single variable. Dictionary items are key value pairs that are separated by commas and enclosed within curly brackets. Now what happens is that from Python 3.7 onwards, dictionaries are ordered."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 194.32,
+        "end": 208.72,
+        "text": " Earlier dictionaries were not unordered. So you have to keep this in mind. According to the version of Python you are using, your dictionary can be ordered or unordered. Now what is the meaning of ordered and unordered? It means that if I print the keys of this, I will get it in the same order again and again."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 208.72,
+        "end": 214.79999999999998,
+        "text": " Now how to print the keys? I will tell you that. Now what is the key? 344 is the key. Harry is the value."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 214.79999999999998,
+        "end": 224.16,
+        "text": " 567 is the key. Neha is the value. I will put the name of the dictionary here and then I will put the key here. So I will get the value. Which is Neha."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 224.16,
+        "end": 233.44,
+        "text": " Okay? How can you access dictionary items? Absolutely as shown in the example here. You can do exactly the same. That in the info, the name is current age 19 eligible true."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 233.44,
+        "end": 247.51999999999998,
+        "text": " So you will get this dictionary printed completely like this. But if you want to print a particular value, then you can do something like this. You can say that I want the corresponding value of the name in the info. So that is current. Okay?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 247.51999999999998,
+        "end": 267.76000000000005,
+        "text": " And in the info, you can also see what is the value corresponding to it. Now see here there are two ways to access it. Either you can do it by naming the info or you can do it by naming the info.get. I do one thing. I will name it again so that you understand that this and this is exactly the same thing in a way."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 267.76000000000005,
+        "end": 283.12,
+        "text": " But there is a difference that I will tell you. If I name it too and I name it too and I run it, then you see that this line is giving me an error here. That brother name 2 is giving the key error. That brother name 2 is not in your info. How are you accessing it?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 283.12,
+        "end": 299.68,
+        "text": " But if I do dot get, then I will get none. You see here none will be printed. So if you want your program to throw an error, if the key does not exist, then what will you do? Here you will use this kind of syntax. It will throw an error if the key does not exist."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 299.68,
+        "end": 312.15999999999997,
+        "text": " And it will print none if the key does not exist. So depending on the use case, you can do this thing. Okay? But if the name exists, then we will print the same thing. So I hope you understood this thing."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 312.15999999999997,
+        "end": 329.28000000000003,
+        "text": " Now how to access multiple values? If you want to access all the values together or all the keys together, then you can do something like this. You can say that brother give me all the keys. And you will get all the keys. You will get the name, you will get the age, you will get the eligible."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 329.28000000000003,
+        "end": 345.44,
+        "text": " So these are all the keys that you can access. Now you can do one more thing. You can say for key in info dot keys. And by doing this, you can iterate all their keys one by one. And you can do info and something like this."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 345.44,
+        "end": 354.56,
+        "text": " You can do key. So you will get all the values. What is the name corresponding, what is the age corresponding, what is the eligible corresponding. So you got the current19 and true. Okay?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 354.56,
+        "end": 368.15999999999997,
+        "text": " So I hope you understood this thing. Now it is ordered, so you will see it in the same order in the output. Okay? So by doing dot keys, you get all the keys. And by doing dot values, you will get all the values."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 368.24,
+        "end": 377.36,
+        "text": " So if I do print info dot values on you. So you will get all the values to see. Because current19 and true. Okay? Current19 and true values."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 377.36,
+        "end": 390.24,
+        "text": " So if you want to take the values in the same order, you can do it like this. And you can take the keys by iterating like this. Okay? I will use this method if I use an f string. Assume."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 390.24,
+        "end": 400.71999999999997,
+        "text": " Okay? And I will put it in a bracket. In curly bracket. I will write the value corresponding to the key. Key is."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 400.71999999999997,
+        "end": 411.91999999999996,
+        "text": " And I will write this. So what will be my output? Value corresponding to the key name is current. Value corresponding to the key age is 19. The value corresponding to the key eligible is true."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 411.91999999999996,
+        "end": 420.47999999999996,
+        "text": " Okay? So I am iterating all the keys one by one. And I am printing their values. By using this syntax. So this is the syntax of the dictionary."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 420.48,
+        "end": 434.48,
+        "text": " And then in square bracket. If you write the key, you will get this value. Which is corresponding to the dictionary. So as it is written here that we can access the keys by using syntax. And we can access the key value pairs by using the item syntax."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 434.48,
+        "end": 444.48,
+        "text": " I will tell you that too. So I comment out everything up to here. In fact, I delete everything. Because everything is written here. Okay?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 444.48,
+        "end": 454.48,
+        "text": " If I write print here. I print here. So info dot items. So it gives me the key value pairs. So you see."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 454.48,
+        "end": 466.48,
+        "text": " Its items will give me the key value pairs. You can see the name, age, current, 19. So in this I can iterate. I can write for key value in info dot items. So this tuple will be unpacked."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 466.48,
+        "end": 476.48,
+        "text": " So I will get the key. And in the value I will get the value. So if I do it again. I will copy it from here. Why should I do so much hard work again and again?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 476.48,
+        "end": 486.48,
+        "text": " Okay? So if I do something like this. The value corresponding to the key is info. In fact, I value it. Okay?"
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 486.48,
+        "end": 496.48,
+        "text": " This will also work obviously. Because it is the value of the dictionary. But this will also work. Because your key is inside the key. And value is inside the value."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 496.48,
+        "end": 506.48,
+        "text": " So if you print your items like this. Then you will see it like this. What is the use of a dictionary? To create a mapping. For example, the employee code of employees."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 506.48,
+        "end": 516.48,
+        "text": " Or their performance metric. How much can their performance be read out of 100? Or. Every item's MRP. In any retail shop."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 516.48,
+        "end": 526.48,
+        "text": " Okay? Like you own a grocery store. So you can make a dictionary. That item code is this. And its price is this."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 526.48,
+        "end": 536.48,
+        "text": " Whenever you want to know the price of any item. You can access that dictionary. So when you store things in the database. It is very helpful. So this is our dictionary."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 536.48,
+        "end": 546.48,
+        "text": " I hope you understood. And tell me in the comment section. How is the course going on? And if you have seen the course till the 33rd day. Then you have seen almost 30% of the course."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 546.48,
+        "end": 556.48,
+        "text": " So I want you to go to the first video. And tell me your experience. That I am on day 33. I am feeling like this. I want all of you to comment."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 556.48,
+        "end": 566.48,
+        "text": " Go here. And put a comment by reviewing. Whatever you think about this course. Whatever you think. Good or bad."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 566.48,
+        "end": 576.48,
+        "text": " Any feedback for me. Because if anyone will come. To see this course. I want him to know. What value is this course adding in their life."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 576.48,
+        "end": 586.48,
+        "text": " And what is it. What is not. I will feel good if you do this. Go to the first video. And put a comment."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 586.48,
+        "end": 596.48,
+        "text": " How many stars do you give to this course. What do you think about this. Please tell me in the comment. But not of this video. That's all for now."
+    },
+    {
+        "Video number": "5",
+        "Title": "Dictionaries in python",
+        "start": 596.48,
+        "end": 620.48,
+        "text": " Thank you so much for watching this video. And I will see you next time. Thank you."
+    }
+]

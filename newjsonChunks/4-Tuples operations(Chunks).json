@@ -1,0 +1,219 @@
+[
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 0.0,
+        "end": 24.400000000000002,
+        "text": " In today's video, we will see the methods of tuples that you can apply on tuples to manipulate them. We are going to see a lot of things in this video. Let's go to the computer screen and let's get started. Intro Now see, when we talked about the list, we talked about the list methods."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 24.400000000000002,
+        "end": 37.0,
+        "text": " We said that we can manipulate the list like this. Can we manipulate tuples? Not in a direct way. If you want to change a tuple, if you want to add a value in the tuple or if you want to remove a value, then there is no direct method to do this."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 37.0,
+        "end": 50.0,
+        "text": " You have to copy it and make a list. You will have to make changes in the list and change it again in the tuple. Because the point of tuples is that you should not be able to change it. If there are 5 items in it, then there will be only 5. The sixth item cannot be added."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 50.0,
+        "end": 63.0,
+        "text": " But now we are going to see here that what are the methods of tuples. Because they tell you how many elements are in the tuple. They give you information about it. So tuples are immutable. As we saw, if you want to add, remove or change tuple items,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 63.0,
+        "end": 81.0,
+        "text": " then first you must convert the list to a tuple. And after that, you can add, remove and change it here. And after that, you can convert that list back to a tuple. I have taken a very good example here, which I want you to see. One tuple is made here."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 81.0,
+        "end": 91.0,
+        "text": " I made a temporary list. After that, I appended Russia in it. Then I did pop. I used a pop method of the list. And after that, I made some changes in that list."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 91.0,
+        "end": 104.0,
+        "text": " And finally, I converted it back to a tuple. So this way you can change the tuple indirectly but not directly. You guys keep this in mind. Now see here that we can convert the tuple to a list. Manipulate items and convert it back to a tuple."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 104.0,
+        "end": 117.0,
+        "text": " However, we can directly concatenate two tuples without converting them to a list. Because we are making a new tuple. We are not changing an existing tuple. We are making a new tuple. So when we are concatenating two tuples, a new third tuple is being made."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 117.0,
+        "end": 130.0,
+        "text": " So it is made. So if you see this example, I am overwriting the examples because they are already here. You can copy and run it yourself. So see here, what we did is we merged these two."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 130.0,
+        "end": 147.0,
+        "text": " So the names of these countries and the names of these countries are merged again and a new tuple is made. So this way we can look. Now there are some methods of tuple which you guys should know. Like this is a count method which tells how many occurrences of a given thing are there in a list."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 147.0,
+        "end": 162.0,
+        "text": " Now see here, I made a tuple with the name tuple1. I will make it small because we use capital for classes. This thing is not important now but you will get to know in object-oriented programming. I will make it small t. Nothing will happen by doing this but again we use a convention"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 162.0,
+        "end": 176.0,
+        "text": " that we write the classes with capital and our variables are written with small letters. So see, 3 times are coming. That's why I got to see 3 here. That tuple1.count3, 3 is coming."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 176.0,
+        "end": 188.0,
+        "text": " If I add one more 3, then 4 will come. All the occurrences of 3, how many times 3 is coming in this tuple. So here 4 times are coming so 4 is coming. As simple as that. I hope you guys understood something."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 188.0,
+        "end": 203.0,
+        "text": " Now index method does exactly the same. What it does is it will return first occurrences of the given element from the tuple. Now what is here is it raises value error if the element is not in the tuple. So you guys keep this in mind. So if I do something like this,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 203.0,
+        "end": 215.0,
+        "text": " I will say res is equal to tuple1.index and after that I will do 3. So the first occurrence of 3, 0, 1, 2, 3 which is 3, we will get to see that. If I make it 31, then what will happen?"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 215.0,
+        "end": 227.0,
+        "text": " We will get to see 5 because it is coming on the 5th index. So we got to see 5. So you guys should know this thing. Now there is one more thing in this. I got occurrence of 3."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 227.0,
+        "end": 243.0,
+        "text": " As I know there are many occurrences of 3 here. I want to see in this portion only what is the index of 3. So what I will do is I will say that I will give starting first. 0, 1, 2, 3. Suppose I give 3 starting and after that I give ending."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 243.0,
+        "end": 261.0,
+        "text": " Suppose 0, 1, 2, 3, 4, 5, 6, 7. I will do one thing. I will make it 4 and 7 or 8. And after that I want to see what is the index of 3. So first of all it will do slicing of this tuple 4 to 8. Now it is saying x is not in tuple."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 261.0,
+        "end": 271.0,
+        "text": " In fact I made a mistake. 3 will come in starting. So what it will do? It will do slicing of tuple by 4 colon 8. So when it will do slicing of tuple by 4 colon 8,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 271.0,
+        "end": 286.0,
+        "text": " then what will happen? 0, 1, 2, 3, 4, then after that 5, 6, 7. So this thing will come in 4 colon 8. So here see what will be the occurrence of 3? Here you see what will be the index of 3?"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 286.0,
+        "end": 296.0,
+        "text": " Here it will be 5. 0, 1, 2, 3, 4, 5. So in original tuple 3 is coming on 5th index. So we got to see 5. If I make it 31 then what will happen?"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 296.0,
+        "end": 304.0,
+        "text": " Then we will not get to see 5. Then we will get to see 7. So will we get to see 7? Yes, because it is coming on 7th index. Index is 7."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 304.0,
+        "end": 316.0,
+        "text": " 0, 1, 2, 3, 4, 5, 6, 7. So it is coming here. So we will get to see 7. So you will use index method directly a lot in your life. This one, the start and end variation,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 316.0,
+        "end": 324.0,
+        "text": " you may use it. You will use this one the most. But again I have told you how it works. Okay. Keep in mind that value error will be raised"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 324.0,
+        "end": 335.0,
+        "text": " if the element is not in tuple. Like if I do something like this, instead of 3, I make it 3, 1, 1. So it will raise a value error. It will say 3, 1, 1 is not in your tuple."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 335.0,
+        "end": 347.0,
+        "text": " How do you want to print 3, 1, 1? So this value error is raised. Like we saw here. So in tuple methods, there is a length. If I want to show you the length of this tuple,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 347.0,
+        "end": 357.0,
+        "text": " then I will make tuple 1 here like this. I will comment it out. And here I will get to see its length. So these are some methods of tuple which I wanted to tell you."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 357.0,
+        "end": 371.0,
+        "text": " You can use all methods of list. Once you have converted tuple to list, then you can do all the changes you want to do. And again convert it to tuple. Until it is in the state of tuple,"
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 371.0,
+        "end": 381.0,
+        "text": " you will not be able to change it. Once you have converted from tuple to list, you can make changes. Then after that, you will convert it to tuple again. You cannot make changes in tuple."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 381.0,
+        "end": 391.0,
+        "text": " You cannot change the existing tuple. Because tuples are immutable. I hope you understood this thing. If you have not accessed the playlist yet, then definitely access it now."
+    },
+    {
+        "Video number": "4",
+        "Title": "Tuples operations",
+        "start": 391.0,
+        "end": 400.0,
+        "text": " Either click and bookmark it, or click and save it. That's all for this video. Thank you so much for watching this video. And I will see you next time."
+    }
+]

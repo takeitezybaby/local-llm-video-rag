@@ -1,0 +1,695 @@
+[
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 0.0,
+        "end": 28.0,
+        "text": " In today's video, I will tell you how to do multi-threading in Python Programming Using the multi-threading module Let's go to the computer screen and see the multi-threading of Python So guys, before telling you about multi-threading I want to tell you what you can achieve from multi-threading"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 28.0,
+        "end": 43.0,
+        "text": " and why you will use multi-threading The first use case of multi-threading is when you want to parallel download resources from the internet Suppose I have 10 servers and I want different data from those 10 servers If I download the data one by one"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 43.0,
+        "end": 56.0,
+        "text": " Suppose I want to download 10 files from the internet 10 files of 10 GB I have fast internet and fast computer But if I install them one by one in my Python Program Then it will be downloaded one by one"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 56.0,
+        "end": 67.0,
+        "text": " And if it will be downloaded one by one, then I am wasting time Because I can do it parallelly We will see how to do it parallelly Because I have resources, my computer is fast I have internet speed"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 67.0,
+        "end": 84.0,
+        "text": " I am not losing anywhere The third thing is that I have to use this And I have to use the multi-threading module So let's open the Apple and show you how these things are done And I will show you directly how to do it"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 84.0,
+        "end": 98.0,
+        "text": " When I will tell you how to do it directly, you will get a good feeling You will also say that now I have understood how to do it So first of all, I will tell you that by doing multi-threading Sorry, by threading, the module is done in Python We have done import threading"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 98.0,
+        "end": 112.0,
+        "text": " Now suppose I have a function And it is doing something Now I will make a function by doing import time And what it will do is All the seconds I have written here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 112.0,
+        "end": 133.0,
+        "text": " It will sleep for those seconds This is a function which indicates some task being done Means if you do any work in Python programming, it will take time This indicates that something is happening Understand what I mean"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 133.0,
+        "end": 147.0,
+        "text": " So I wrote def func and did this But suppose I have written func1 But suppose I run func4 And I will do one thing I will print here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 147.0,
+        "end": 157.0,
+        "text": " Sleeping for And I will write here Seconds Seconds Means if you are sleeping for 4 seconds"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 157.0,
+        "end": 167.0,
+        "text": " Then sleeping for 4 seconds will come Or sleeping for 1 second will come And so on So now if I run it I will run it and show you"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 167.0,
+        "end": 178.0,
+        "text": " Suppose I want to make one more function Func4, func2, func1 Suppose this is a function It is doing some work And whatever work it is doing"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 178.0,
+        "end": 190.0,
+        "text": " It will take time So func4, func2, func1 will be executed one by one So if I run it and show you So you see sleeping for 4 seconds It is going to stop for 4 seconds"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " Means till 4 seconds are over, it will not work 2 seconds are over, the one below it will not work So all three of them will work one by one We all know this You said I knew this, what are you telling"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " But now I will tell you one thing With which we can start all three of them parallelly Now here Suppose this function is like Suppose you go to a restaurant"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " Now you said I want to eat paneer butter masala I want to eat okra vegetable And I want to eat roti Now if there is only one person"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " Then he will make all three things one by one So if he makes all three dishes In 5 minutes Then it will take 15 minutes for your food to come Will it take or not, I hope everyone understood this"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " 5 minutes are taking in a dish So it is 5, 3 or 15 Now if Suppose three people are working parallelly So there is no point of this"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " That the second person should wait And wait for the first person to finish Means Suppose one person is making okra, he should wait That I will make roti when okra will be made"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " Then he is making roti And the third person will say that I will make paneer butter masala When he will make roti, so there is no point of it That's why we want to start all three of them All three of them"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " Ok, but the design of python Is like this Python programming language design is like this That it is executed one by one While waiting"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " So we want to make it concurrent We can make it With the help of threading, we can say That handle all three of these threads All three of these functions"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " We will use thread syntax We will say here threading.thread We will say here t1 is equal to threading.thread thread"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " And a thread will be made And we will say that We have to call Func here And what should be the arguments"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " Assume that it should be 4 So I made a thread with the name t1 And I will make it with the name of t2 and t3 So the work That I was doing above"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " I am doing it very efficiently here So I don't need to do this now, I am converting it I will do one thing here I will write normal code And I will write code using threads"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " And I will write Same code using Threads When I will use same code with thread With thread"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " So there are 4, 2 and 1 arguments So 4, 2 and 1 Now what I will do, I will have to tell Python that I want to start it So assume that there are cars"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " And they want to start So let's start the first car Assume that a person is standing to make okra So we have to tell him to start To make okra"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " So t1 is equal to Sorry, I will say t1.start And I will start t2.start And I will start t3.start Now what will happen here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " All three will start together All three will start together Where our work was happening 4, 2, 6 and 1 in 7 seconds Now I will show you how much time it will take"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " So I will run it, all three started together And then it ended Now I will do one thing I will show you how much time it takes So our normal code"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " Our normal code I will do one thing here I will write t1 is equal to t1 is equal to time.perfcounter"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " Ok So this is the code That is used for performance counting So I wrote t1 here Sorry, I will not write t1 here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " I will write time1 Time1 is equal to And now I will say Time2 is equal to And I will print here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " Time2 minus time1 Time2 minus time1 So my old code How long is it running I will show you"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " So it is running here Sleeping for 4 seconds Sleeping for 2 seconds It is running slowly And then finally it says"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " t1 is not defined I used t1 here Oops, I did not comment it So I will show you When all three"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " 4 seconds, 2 seconds, 1 second After wasting 7 seconds of your life I will show you How much time it takes I will tell you"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " So now This is my normal code I will run the same code using thread But there is a catch here I will tell you that after running"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " Because you will understand So I will take this and do it like this Now I will comment the normal code And obviously I will put time here At the end"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 470.0,
+        "end": 480.0,
+        "text": " When everything will run Calculating Time Same code using threads Now what I will do"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " I will run it and you will be shocked That it is taking almost 0 seconds Now you will say why is it taking 0 seconds It should have taken at least 1 second Now when all three are starting together"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 490.0,
+        "end": 500.0,
+        "text": " Which is the slowest process Which is this one which is taking 4 seconds So This whole thing should have taken 4 seconds"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 500.0,
+        "end": 510.0,
+        "text": " If you assume That the paneer is being made in 4 seconds Or the roti is being made in 1 minute And the okra is being made in 2 minutes So how long will the food take"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 510.0,
+        "end": 520.0,
+        "text": " It will take 4 minutes If you have studied chemical kinetics If you have given JEE So it is said that the slowest step is the rate limiting step Okay"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 520.0,
+        "end": 530.0,
+        "text": " I will not come in all these things I just want to tell you that Why did it take 0 seconds You will be shocked Now what happens"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 530.0,
+        "end": 540.0,
+        "text": " When we start t1. And it says that your thread has started Now move forward T2.start means start the thread and move forward In the script"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 540.0,
+        "end": 550.0,
+        "text": " T3.start also says start the thread and move forward in the script Means it has not ended yet It has just started We did not wait for it We threw it in the background"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 550.0,
+        "end": 560.0,
+        "text": " We said it will keep happening Throw it aside So t1.start means start thread 1 and throw it aside Now it does not mean anything It will end by itself"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 560.0,
+        "end": 570.0,
+        "text": " I want to wait here For t1, t2 and t3 to end So you can say here t1.join t2.join"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 570.0,
+        "end": 580.0,
+        "text": " t3.join t1.join means I want to wait until t1 ends t2.join means I want to wait until t2 ends"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 580.0,
+        "end": 590.0,
+        "text": " And t3.join means I want to wait until t3 ends So if I run it It will run until all three are not running It will run for around 4 seconds"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 590.0,
+        "end": 600.0,
+        "text": " As you can see Threads are very useful When you want to download anything from the internet Means your task is IO bound Not CPU bound"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 600.0,
+        "end": 610.0,
+        "text": " Now if I am downloading something from the internet Then there is no point in waiting Suppose there are 10 files 10 files to be downloaded every minute Should I do it in 10 minutes"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 610.0,
+        "end": 620.0,
+        "text": " No, I can do it in 1 minute By using threads I will download 10 files at once Because if I give you 50 things to download Or 5 things to download"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 620.0,
+        "end": 630.0,
+        "text": " Then you will put 5 files You will say that I have put 5 files on download Or you will put one by one on download No, you will put 5 files of 5 files On download at once"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 630.0,
+        "end": 640.0,
+        "text": " Now many people ask When we put 5 files of 5 files Then our internet speed is the same Why don't we use internet speed on the first file Because there are two things"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 640.0,
+        "end": 650.0,
+        "text": " Understand One is internet speed and the other is server speed The power of server is called server speed If the server is not giving So fast"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 650.0,
+        "end": 660.0,
+        "text": " Then there is no point Suppose the server is giving you 100 Mbps speed You have put 2 Gbps internet So your 2 Gbps internet is of no use"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 660.0,
+        "end": 670.0,
+        "text": " You will get 100 Mbps speed So I hope you have understood this That server speed is also there And because every server has its own speed It is better to hit servers parallelly"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 670.0,
+        "end": 680.0,
+        "text": " You can hit 5 servers or 10 servers So that your internet speed is used And load on those servers You put parallel load on all 5 servers If you put on 5 different servers"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 680.0,
+        "end": 690.0,
+        "text": " Then the speed you are going to get Will be the same And your internet will be used So you will be in advantage So I hope everyone understood this"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 690.0,
+        "end": 700.0,
+        "text": " Now let's go a little miscellaneous Maybe some of you will feel bad Why did you make it so difficult It was going so well See, it is a little difficult to make it difficult"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 700.0,
+        "end": 710.0,
+        "text": " See, it is a little difficult to make it difficult Because I have come here to make you A good python developer You have not come here to become a small python developer I will tell you first"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 710.0,
+        "end": 720.0,
+        "text": " If you have come, then you are in the wrong place I will tell you about concurrent.futures To make you a good python developer Concurrent.futures Why is it telling me"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 720.0,
+        "end": 730.0,
+        "text": " That I am a robot, I am a human Concurrent.futures is a module What can you do There is a thread pool executor in it You can submit a function with the help of this"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 730.0,
+        "end": 740.0,
+        "text": " You can submit a function with the help of this And after that what can you do You can get your result from it I will tell you how easy it is to use See what happens"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 740.0,
+        "end": 750.0,
+        "text": " I do one thing I put it in a function The def func and I put it in the def main The def func and I put it in the def main Okay, and I will not call the main"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 750.0,
+        "end": 760.0,
+        "text": " Okay, I put it in a function Now here Def pooling I make a function in the name of pooling demo I make a function in the name of pooling demo"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 760.0,
+        "end": 770.0,
+        "text": " And obviously I will call it Okay, something like this Now see what I am doing here I am using thread pool executor Now where will I import this thread pool executor"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 770.0,
+        "end": 780.0,
+        "text": " I will import it from concurrent.futures So I will say from concurrent.futures From concurrent.futures From concurrent.futures Import"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 780.0,
+        "end": 790.0,
+        "text": " Thread pool executor So what does thread pool executor do It helps you in scheduling tasks It helps you in scheduling tasks Now see here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 790.0,
+        "end": 800.0,
+        "text": " KaiKey executor.submit Now I want to use this function Now I want to use this function I want to use func I want to sleep for 3 seconds"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 800.0,
+        "end": 810.0,
+        "text": " I want to sleep for 3 seconds And I want to sleep for 4 seconds So I do one thing I do 3, 2 and 1 Or 3, 2 and 5"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 810.0,
+        "end": 820.0,
+        "text": " Okay Now what am I doing Now what am I doing It is not returning anything It is just printing"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 820.0,
+        "end": 830.0,
+        "text": " See sleeping for 3 seconds And after this sleeping for 2 seconds And after this sleeping for 4 seconds So what I did here When I am doing future.result"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 830.0,
+        "end": 840.0,
+        "text": " I said future is equal to executor.submit I submitted the executor Now if I do future1, future2, future3 Now if I do future1, future2, future3 And here also 1, 2 and 2 and 3"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 840.0,
+        "end": 850.0,
+        "text": " And here also 1, 2 and 2 and 3 And I will see their results later And I will see their results later You can see here I will run it"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 850.0,
+        "end": 860.0,
+        "text": " First of all 3 seconds All of them happened in 4 seconds And after that I got their results So in this way you can use thread pool executor"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 860.0,
+        "end": 870.0,
+        "text": " Now there is one more syntax to use thread pool executor Now there is one more syntax to use thread pool executor Which is map function And I will tell you I think it is very good"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 870.0,
+        "end": 880.0,
+        "text": " The reason is You can schedule things very well You can schedule things very well I am seeing If they have a good example"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 880.0,
+        "end": 890.0,
+        "text": " It will be fun Executor.map And here you can give function And here you can give list of iterable I will show you what I mean"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 890.0,
+        "end": 900.0,
+        "text": " Suppose I have a list of numbers L is equal to 3, 5, 6 and 2 3, 5, 1 and 2 Now"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 900.0,
+        "end": 910.0,
+        "text": " In most of the cases you will have this kind of list Because If you want to download things from url If you want to download things from url You will not have this"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 910.0,
+        "end": 920.0,
+        "text": " You will not have this If you have 1000 urls then you will have a list of 1000 urls If you have 1000 urls then you will have a list of 1000 urls You will not make such a big code You will not make such a big code"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 920.0,
+        "end": 930.0,
+        "text": " You can say Results is equal to Executor.map And you can say I want to put func function"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 930.0,
+        "end": 940.0,
+        "text": " In L And after this when I will do this Now it is saying results is assigned but never used Now I can say for result in results Now I can say for result in results"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 940.0,
+        "end": 950.0,
+        "text": " And what I can do here I can print result I will show you here If I am returning something If I am returning something"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 950.0,
+        "end": 960.0,
+        "text": " Then I will get return value Now I will run this Now it started running all together Now it started running all together Means it scheduled all together"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 960.0,
+        "end": 970.0,
+        "text": " And as soon as it gets results It is printing and giving So for parallel execution This module is very important If you use concurrent.futures"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 970.0,
+        "end": 980.0,
+        "text": " It is little bit easy But I have covered basics of threading But I have covered basics of threading But if you want to use this in real world But if you want to use this in real world"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 980.0,
+        "end": 990.0,
+        "text": " Then you can use concurrent.futures Then you can use concurrent.futures Because that is very important for you To make real life projects Not that I just told you"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 990.0,
+        "end": 1000.0,
+        "text": " You saw it and applauded Not only that If you need to download in real world If you need to download in real world 50 urls together"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 1000.0,
+        "end": 1010.0,
+        "text": " 500 urls together 50 urls together 500 urls together Then you can do it I hope you all got it"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 1010.0,
+        "end": 1020.0,
+        "text": " If you have not access playlist Do it If you want to see it from learn page You can see it from learn page I just want to let you know"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 1020.0,
+        "end": 1030.0,
+        "text": " I just want to let you know 100 days of code hindi You can click here You will be able to see it You can click here"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 1030.0,
+        "end": 1042.04,
+        "text": " They have made very good interface You can click here You will get it I hope you guys are enjoying 100 days of code python series and we are almost finishing this course"
+    },
+    {
+        "Video number": "7",
+        "Title": "Multithreading in python",
+        "start": 1042.04,
+        "end": 1068.04,
+        "text": " the excitement is increasing that's it for now, thank you so much for watching this video and I will see you next time Thank you for watching"
+    }
+]

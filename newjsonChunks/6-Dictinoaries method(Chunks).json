@@ -1,0 +1,338 @@
+[
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 0.0,
+        "end": 14.0,
+        "text": " In the last video we saw everything about Dictionary How to make a dictionary What is the importance of Dictionary in Python Programming Language In this video I would like to talk about Dictionary Methods Let's go to the computer screen and let's get started"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 14.0,
+        "end": 35.0,
+        "text": " Intro Some of the methods of Dictionary are very useful One of the methods is update Which is used to update the dictionary Let's say I have some employee ID's"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 35.0,
+        "end": 50.0,
+        "text": " And their performances I write employee or ep I will make a simple name of the dictionary Let's say I have some employee ID's Let's say it is 1 to 2 and its performance is 45 out of 100"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 50.0,
+        "end": 71.0,
+        "text": " And 1 to 3 and its performance is 89 out of 100 And I have one more employee ID and its performance is 69 out of 100 And 670 is another employee ID Its performance is also 69 out of 100 So what is happening is that we have stored the performance of many people in a variable"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 71.0,
+        "end": 87.0,
+        "text": " Now let's say another person comes and he is also a manager He says that according to my database I have some other employee ID's Like 2 to 2 employee ID's performance is 67 566 employee ID's performance is 90"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 87.0,
+        "end": 100.0,
+        "text": " So now they decide to do one thing Because he is a senior manager EP1 is a senior manager He says that EP2 you are junior than me You give me all your ratings and I will store them in my database"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 100.0,
+        "end": 114.0,
+        "text": " So EP1 says ok sir no problem Sorry it is EP2 not EP1 EP1 is a senior I forget EP2 says ok sir you take all my ratings So what will EP1 do?"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 114.0,
+        "end": 129.0,
+        "text": " EP1 will update itself with the values and key value pairs I should say items of EP2 So if I run this method once So I just need to run And once I will print EP1"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 129.0,
+        "end": 146.0,
+        "text": " So I will see that these two performances have also come in it You can see 2 to 2 67 566 90 has also come Now the set is unordered in python You must know this But the dictionary is ordered from python 3.7 onwards"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 146.0,
+        "end": 160.0,
+        "text": " So set unordered python dictionary ordered So in this way we can use the update method Now we can use the clear method to clear all the dictionaries So if I do not do this here If I say ep1.clear"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 160.0,
+        "end": 174.0,
+        "text": " So what will happen? EP1 will be completely empty And an empty dictionary will be printed here How to make an empty dictionary? If I do this"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 174.0,
+        "end": 185.0,
+        "text": " So this is an empty dictionary So if I print the empty dictionary So an empty dictionary will be printed Similarly we have a pop method Which removes the key value pairs"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 185.0,
+        "end": 201.0,
+        "text": " So if I show you here If I say here ep1.pop122 So what I will do is I will remove this key value pair So see 123, 567 and 670"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 201.0,
+        "end": 211.0,
+        "text": " By the way, I will tell you I have commented out the method of update That's why you are not seeing these values In case you are wondering So by pop I can remove a key value pair"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 211.0,
+        "end": 223.0,
+        "text": " What does pop item do? It removes the last key value pair from a dictionary So what you have to do is If you want this entry to be removed from ep1 670, 69"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 223.0,
+        "end": 233.0,
+        "text": " So what you will do is You will use pop item here And you will write 670 here What will happen by writing 670? That your pop item method"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 233.0,
+        "end": 242.0,
+        "text": " Sorry I don't need to write 670 I will just write pop item And automatically 670 will be removed from here So you can see here Now the print of ep1"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 242.0,
+        "end": 252.0,
+        "text": " There is no 670 in it So I just need to write pop item And my last key value pair Will be removed from my dictionary Again there is a del keyword"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 252.0,
+        "end": 262.0,
+        "text": " Which we saw in set What does this del keyword do? It deletes the whole dictionary So if you have written del here Suppose I have written del ep1"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 262.0,
+        "end": 270.0,
+        "text": " Then I will get an error Now line no. 9 will say What is ep1? And it will give an error That ep1 is not defined"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 270.0,
+        "end": 281.0,
+        "text": " So we can do such things with dictionary So I will comment this So that we don't get to see The error that ep1 is not defined If key is not provided"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 281.0,
+        "end": 288.0,
+        "text": " Then the del keyword will delete the dictionary Entirely If you didn't delete like this By giving the key Then the whole dictionary will be deleted"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 288.0,
+        "end": 298.0,
+        "text": " Like we did here But if you give the key You say that I want to delete 122 Sorry not 122 as a string Because 122 is an integer"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 298.0,
+        "end": 308.0,
+        "text": " So I will write 122 like this So the entry 122 colon 45 Will be deleted from my dictionary What if I write it like this As a string"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 308.0,
+        "end": 316.0,
+        "text": " I will say that if you delete 122 Then you will get an error You will get a key error Many people get confused in this That 122 was in my dictionary"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 316.0,
+        "end": 327.0,
+        "text": " Why am I getting a key error? So you are getting a key error Because you are seeing 122 as a string And as an integer The key in ep1"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 327.0,
+        "end": 335.0,
+        "text": " Is as an integer So you should know this So I will do it again So that there is no error I hope you understood this"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 335.0,
+        "end": 342.0,
+        "text": " So exactly the same things Which we saw for list For tuple For set For dictionary also"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 342.0,
+        "end": 349.0,
+        "text": " There are some methods There is a data type It has some uses Whenever you want to create a mapping Of key value pairs"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 349.0,
+        "end": 356.0,
+        "text": " You do it Many times when you work with database With MongoDB With PyMongo Then dictionary will be very useful"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 356.0,
+        "end": 365.0,
+        "text": " Because in it Almost everything is like a dictionary You will have to use Many methods of dictionary And when you solve actual real world problems"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 365.0,
+        "end": 374.0,
+        "text": " Like creating a website in Django Or creating a NAPI in Flask So when you do that kind of work Then you will know about actual usage of these things And now you may have"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 374.0,
+        "end": 381.0,
+        "text": " Things like theory Always You Keep doing something like this Python"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 381.0,
+        "end": 388.0,
+        "text": " Dictionary Documentation If you do this kind of work Then you Keep reading latest documentation"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 388.0,
+        "end": 395.0,
+        "text": " Here all methods are written You can see These are of list And these are of dictionary So you can see here"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 395.0,
+        "end": 404.0,
+        "text": " You can also see some of those methods of dictionary Which I may not have told you So here Actually this is a CAPI reference of dictionary"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 404.0,
+        "end": 411.0,
+        "text": " So let's close it now We want to see here Dictionary I will click here about this You can also read this"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 411.0,
+        "end": 418.0,
+        "text": " Like this is a source This is a documentation Which When python is made Then this thing is released"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 418.0,
+        "end": 426.0,
+        "text": " Wherever you see anything It comes from here So how about reading this Or at least trying to read this You can try"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 426.0,
+        "end": 433.0,
+        "text": " So here you can try this It's not like reading it like a book You can read it from middle You can scroll through here You can skim it"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 433.0,
+        "end": 439.0,
+        "text": " You can see Is there any method which I don't know Is there any method which I can see here Which I don't know Can you see"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 439.0,
+        "end": 444.0,
+        "text": " So try it See what is that thing Okay Read about looping techniques Once you get basic"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 444.0,
+        "end": 452.0,
+        "text": " Then read Your information Will keep increasing As much as you know about dictionary Your knowledge will increase"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 452.0,
+        "end": 459.0,
+        "text": " Okay, in total If you have not accessed the playlist yet Then do access it Or click and bookmark And click here and save"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 459.0,
+        "end": 469.0,
+        "text": " If you have seen the course for 34 days Continuously So I want to make a request to you That you go to the first video And leave your review comment"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 469.0,
+        "end": 477.0,
+        "text": " Tell me how many stars will you give this course And honestly you give So that the people who are going to start this course If you do this I will feel very good from the heart"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 477.0,
+        "end": 488.0,
+        "text": " Many people have left their comments So I say thank you to them That's all for now in this video guys Thank you so much guys for watching this video And I will see you next time"
+    },
+    {
+        "Video number": "6",
+        "Title": "Dictinoaries method",
+        "start": 488.0,
+        "end": 507.0,
+        "text": " Outro"
+    }
+]

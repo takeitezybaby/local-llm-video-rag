@@ -1,0 +1,982 @@
+[
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 0.0,
+        "end": 16.4,
+        "text": " In Python programming, list is a very important data type. If you want to store 10, 15, 20 things in a particular entity, then you can make a list of it. For example, you can make a list of marks of students of class 8. Or you can make a list of people living in Europe."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 16.4,
+        "end": 32.56,
+        "text": " Or you can make a list of people enrolled in 100 days of code Python. By making all these lists, you can perform some operations on them, you can iterate them, and you can call them by one name. For example, a list of class 10th maths marks has been made. All the people's marks are written on it."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 32.56,
+        "end": 45.68,
+        "text": " A list of class 11th science marks has been made. By making lists, we can collect things in one entity. And it is very easy to refer it. Let's go to the computer screen and see the list. And after that, we will see what operations can be done with the list."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 45.68,
+        "end": 69.36,
+        "text": " How will the list help you in Python programming? Let's get started. Today's day is very special because we are going to talk about the list. It is a very good data type, good in the sense that it is a very useful data type. And you have to understand the list very carefully."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 69.36,
+        "end": 80.4,
+        "text": " If you are not focusing, then start focusing. Because this is one of the most important topics. What is a list? First of all, I will tell you by myself what a list is. I will write l is equal to..."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 80.4,
+        "end": 91.04,
+        "text": " Suppose I put a square bracket like this and I wrote 3, 5, 6. Okay? So this became a list. This is a valid Python program because I am running it. So see, there is no error here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 91.04,
+        "end": 110.72,
+        "text": " If I want to print it, I will simply print l. And I will see 3, 5, 6 just like I made this list. If I print its type, then Python will tell me that this is a list. And you see here, I will get to see the class list. So far so good, we understood what a list is."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 110.72,
+        "end": 120.72,
+        "text": " Why is a list made? List, we are in one name. Listen to me carefully. If you want to put multiple things in one name, like suppose marks, okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 120.72,
+        "end": 130.32,
+        "text": " Marks of a student. I will say that these were three students who came to study in the class. These are marks of three out of ten. One has three, one has five, one has six. So what did we do?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 130.32,
+        "end": 148.8,
+        "text": " We put a lot of values under one name. In this case, we put these three values under marks, 3, 5, 6. Now if I want to display all the marks, then I can display it in this way. Mark 0 means that the first marks,"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 148.8,
+        "end": 163.68,
+        "text": " like we saw in the case of string, we saw that in our string, if we use 0, then we get the first character. And if we use 1, then we get the second character and so on. The count starts from 0, this is called index."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 163.68,
+        "end": 181.68,
+        "text": " So index starts from 0 in Python, okay? It starts from 0 in Python list too. So if I write print mark 0 here, I will only get to see 3. If I write mark 1, then I will get to see 5. And if I write print mark 2, then I will get to see 6."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 181.68,
+        "end": 197.28,
+        "text": " So mark 0, mark 1, mark 2, 3, 5, 6. So I hope this thing is clear to you. So if you come to the notes, I have written list, are ordered collection of data items. Ordered collection means that their order is maintained."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 197.28,
+        "end": 208.07999999999998,
+        "text": " First there are three, then five, then six, so this order will be maintained. If you print, then this order will be maintained. If you index, then this order will be maintained. They store multiple items in a single variable."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 208.07999999999998,
+        "end": 226.23999999999998,
+        "text": " As we saw, there are multiple values stored in a variable named marks. List items are separated by commas and enclosed within square brackets. Look here, separated by commas and enclosed within square brackets. Starts with square brackets and ends with square brackets. I hope this thing is clear to you."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 226.23999999999998,
+        "end": 242.32,
+        "text": " List items are separated by commas, then this is list are changeable, meaning we can alter them after creation. After making marks, I can add one more value in it. Suppose another student comes to study in the 4th division. He says, include me also."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 242.32,
+        "end": 252.72,
+        "text": " Suppose a test was going on at that time. He says that I also want to give a test. I want to see how much water I am in. So the teacher will say, come on, sit down. So I will also add marks in the variable named marks."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 252.72,
+        "end": 264.79999999999995,
+        "text": " So it can be added in the list at the end. We will see how it is done in the list method. But if we talk about tuple, it does not change. I will tell you that before. Tuple cannot be changed, list can be changed."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 264.79999999999995,
+        "end": 276.23999999999995,
+        "text": " We have some methods of list. There is an append method, with the help of which we can add things at the end of the list. So this thing is done. Now you can print the list like this. We saw this."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 276.23999999999995,
+        "end": 290.24,
+        "text": " Can a string data type also come here? That is, can any other data type come in a list? If it is a number list, can a string also come in it? Can a boolean also come in it? So the answer is yes."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 290.24,
+        "end": 300.40000000000003,
+        "text": " It can come. Why not? Python allows. But the thing is that if you are making a variable named marks, in which you have to store marks, then you will not want to do this."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 300.40000000000003,
+        "end": 313.20000000000005,
+        "text": " But it can come. You can see here, 3, 5, 6, Harry, true. See, it came here. Now I can print marks 3 along with marks 2. I can print marks 4, I can print marks 5."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 313.20000000000005,
+        "end": 322.32,
+        "text": " I can print 6. 0, 1, 2, 3, 4. 5 cannot be done. Actually, if I run this program now, then an error will come here. Because 0, 1, 2, 3, 4."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 322.32,
+        "end": 332.08,
+        "text": " Marks 5 is not there. It will say list out of, index out of range. That you are trying to access marks 5. Marks 5 is nothing. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 332.08,
+        "end": 341.52,
+        "text": " So this is the kind of thing. That's why the error will come. If I remove it and run it for you, then you will see all these values. Because I have printed 0, 1, 2, 3, 4. 3, 5, 6, Harry and true will be seen."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 341.52,
+        "end": 348.56,
+        "text": " Okay? So you can do it like this. So here in one list, different data types can be there. We saw this. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 348.56,
+        "end": 357.12,
+        "text": " Now let's talk about list index. Because we have already done it. It is exactly like string index. There is nothing like this that there is something different in it. If you print 0, then red will come."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 357.12,
+        "end": 361.20000000000005,
+        "text": " If you do colors 1, then green will come. And so on. Okay? If you do colors 5, then you will get an error. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 361.20000000000005,
+        "end": 372.16,
+        "text": " Keep this in mind. Each item element in the list has its own unique index. This index can be used to access any particular item from the list. The first item has index 0. The index of the second item is 1."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 372.16,
+        "end": 380.08,
+        "text": " The index of the third item is 2. And so on. Because the counting starts from 0. Many people get confused in this. That why the first item is not found from 1."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 380.08,
+        "end": 390.55999999999995,
+        "text": " Or the last item, like if its length is marks. See, there are 1, 2, 3, 4, 5 items in this. But why is marks 5 not written to access the last one? Why is 4 written? Because the counting starts from 0."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 390.55999999999995,
+        "end": 402.08,
+        "text": " If you start counting from 0 in your hands, then you will get 4 on your fifth finger. 0, 1, 2, 3, 4. So you will get it like this. So here because the counting starts from 0,"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 402.08,
+        "end": 410.16,
+        "text": " that's why it happens. So never get this confusion in your mind. If you want to print Harry from this list, 0, 1, 2, 3. This is on 3."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 410.16,
+        "end": 416.8,
+        "text": " I agree that there is a fourth element. But because the counting starts from 0, that's why its index is 3. Okay? I hope it's clear."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 416.8,
+        "end": 424.0,
+        "text": " Okay? Many people get confused. If someone asks you what is the length of the color? So don't say 4 after seeing this 4. Because the counting starts from 0."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 424.0,
+        "end": 431.52,
+        "text": " If it starts from 1, then you would get to see 5. So the index is different. The length is different. Its length is 5. The length of the color is 5."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 431.52,
+        "end": 438.71999999999997,
+        "text": " But its index is 0 for the first one. And for the second one, it's 1, 2, 3, 4. Okay? You should know this thing. Now we can access it."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 438.71999999999997,
+        "end": 446.47999999999996,
+        "text": " We have square bracket notation. I have told you this. It's just like a string. Let's talk about negative indexing. We talked about negative indexing in the string."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 446.47999999999996,
+        "end": 455.76,
+        "text": " If I am here... I would like to comment on this. All the print statements I have put here. And I will put a fresh print statement here. If I write here marks minus 3,"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 455.76,
+        "end": 465.92,
+        "text": " then what will be the print? I will tell you the easiest way to do this. I have told you this in the chapter on strings. The easiest way to do this is... What you have to do is..."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 465.92,
+        "end": 475.76000000000005,
+        "text": " If you have been given marks minus 3, then what will you do? This is negative index. Okay? You have to convert this into positive index."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 475.76000000000005,
+        "end": 484.8,
+        "text": " Okay? How will you convert it into positive index? Here, you will put length of marks. What will you do? You will put length of marks."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 484.8,
+        "end": 490.47999999999996,
+        "text": " What is the length of marks? What is the length of marks? You tell me what is the length of marks. It is 5. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 490.47999999999996,
+        "end": 498.23999999999995,
+        "text": " It is 5, right? Yes, it is 5. So, what is 5 minus 3? What is 5 minus 3? Is it 2?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 498.23999999999995,
+        "end": 503.12,
+        "text": " Yes, it is 2. So, I converted it into positive index. Now, this is easy for you. Tell me the marks 2. 6."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 503.12,
+        "end": 508.47999999999996,
+        "text": " Okay? So, this will also print 6. This will also print 6. This will also print 6. This will also print 6."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 508.47999999999996,
+        "end": 516.48,
+        "text": " Okay? So, I can expect 4 times 6. And... I got to see 4 times 6. So, whenever you get negative index,"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 516.48,
+        "end": 524.88,
+        "text": " first convert it into positive index. By putting length of marks here. Otherwise, there will be confusion. Many people will tell you like this. That count the third from the back."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 524.88,
+        "end": 531.12,
+        "text": " Okay? 0, 1, 2. Or count it straight from the back. 1, 2, 3. Marks minus 3 will come."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 531.12,
+        "end": 537.44,
+        "text": " I don't believe in such rules. That you should remember. Okay? I am not saying that you will not get the right answer. You will get."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 537.44,
+        "end": 546.4,
+        "text": " But in my life, this is the easiest way. And I never use negative index in my personal projects. I feel a little confused. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 546.4,
+        "end": 553.92,
+        "text": " If I get to see it in someone else's project. Or sometimes, some scenarios happen. That negative index is necessary. Okay? In that case,"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 554.64,
+        "end": 561.36,
+        "text": " Yes, I use it. Okay? In that case, if I have a sense. I wrote the last item as minus 3. But you will do all those things."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 561.36,
+        "end": 572.72,
+        "text": " When you become a little advanced Python developer. If you are asked about the output of the program in the exam. You are telling him. That this is negative indexing. You convert it into positive indexing first."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 572.72,
+        "end": 579.7600000000001,
+        "text": " Okay? You will convert it into positive indexing. After that, your work will be done. Okay? I hope everyone is understanding this thing."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 579.7600000000001,
+        "end": 586.5600000000001,
+        "text": " Now look here. We have seen negative indexing. Okay? I told you how to do it. If I want to know."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 586.5600000000001,
+        "end": 594.48,
+        "text": " That one element is in the list or not. Assume I want to know. That 7 is in this list or not. So what I will write here. If."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 594.8800000000001,
+        "end": 602.08,
+        "text": " I will write. 7. In marks. In marks. Print."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 602.48,
+        "end": 607.6800000000001,
+        "text": " Yes. Else print no. Okay? I will run. Obviously, no print."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 607.6800000000001,
+        "end": 614.4000000000001,
+        "text": " So using these keywords. We can find out. That 7 is in this list or not. Okay? Same thing can be done in the string."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 614.4000000000001,
+        "end": 621.44,
+        "text": " I will show you here. Example of it. How these keywords are used in the string. But if I write here Harry. So will yes or no come?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 621.44,
+        "end": 628.72,
+        "text": " You tell me in the comment first. I am waiting for you. And the answer is yes will come. Because brother Harry is in the variable named marks. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 628.72,
+        "end": 632.6400000000001,
+        "text": " So you will get to see yes. Okay? So I will write. Yes. No."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 632.6400000000001,
+        "end": 636.5600000000001,
+        "text": " Okay? So I will write. Okay? So yes you will get to see. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 636.5600000000001,
+        "end": 641.6,
+        "text": " I hope it is clear. I hope everyone understood. Okay? Very good. Now see."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 641.6,
+        "end": 649.84,
+        "text": " If you put 6 here. Okay? If you put 6 here. Then also you will get to see yes. But I will show you one thing."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 649.84,
+        "end": 656.24,
+        "text": " If I put 6 here like this. Means put as a string. Then will you get or not? You tell me. Tell me in the comment."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 656.24,
+        "end": 660.88,
+        "text": " Will you get or not? Write like this. 6 as a string. Will you get or not? Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 660.88,
+        "end": 668.0,
+        "text": " I am running. And will not get. Why will not get? Because 6 is an integer in our list. 6 is not a string."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 668.0,
+        "end": 676.88,
+        "text": " Okay? So you can do this thing with the help of these keywords. Now one more thing comes. The concept of jump index comes. But before that I want to tell you."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 676.88,
+        "end": 683.8399999999999,
+        "text": " Assume I write. If. A R R Y. In Harry. So what happens is."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 683.8399999999999,
+        "end": 691.1999999999999,
+        "text": " In the string. You can do something like this. You see here I have written. Is A R R Y in Harry? And yes it is."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 691.1999999999999,
+        "end": 698.72,
+        "text": " So yes I will get it printed. Is A R Y in Harry? No. So I will not get yes printed. Here only this one will get no."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 698.72,
+        "end": 706.0,
+        "text": " Will not get yes. And if I write here. If H A in Harry. Then I will get true. Means yes will be seen."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 706.0,
+        "end": 717.44,
+        "text": " So you see here no yes will be seen. So in this way we can apply the same thing for the string. I will write here. Same thing applies for strings as well. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 717.44,
+        "end": 722.72,
+        "text": " Same thing applies for the string. Great. Great. It was fun. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 723.0400000000001,
+        "end": 731.36,
+        "text": " Now you see here. If you want to print all the elements of the list. Then how will you do it? If I want to print all the marks. I am commenting this thing again."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 731.36,
+        "end": 742.24,
+        "text": " So that you do not get confused. If I want to print all the marks. Then I can do it like this. Or if I do it like this. That I left the starting empty."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 742.24,
+        "end": 749.36,
+        "text": " Left the ending empty. So I will get to see all this here. Okay? Marks. Okay if I write 1 here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 749.36,
+        "end": 758.32,
+        "text": " So what will happen? So you see here. This will start from index 1. And will go all the way till length minus 1. That is, it will go to the last element."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 758.32,
+        "end": 767.36,
+        "text": " But if I write minus 1 here. So what will I do first? Personally, I will convert it into positive indexing. First of all, I will not get confused. What will be the length of marks?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 767.36,
+        "end": 771.9200000000001,
+        "text": " Length of marks is 5. 5 is there. 3, 2, 5. Yes, 5 is there. So what will be 5 minus 1?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 771.9200000000001,
+        "end": 777.12,
+        "text": " It will be 4. Okay? Because 5 minus 1 is 4. That's why I will make it 1 to 4 here. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 777.12,
+        "end": 784.64,
+        "text": " I made it marks 1 to 4. If I do 1 to 4. So it will start from 1. And 4 will not be included. So 5, 6 and Harry."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 784.64,
+        "end": 792.08,
+        "text": " I will get to see here. You see. I will get to see 5, 6 and Harry. Okay? So like this, we can do slicing."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 792.08,
+        "end": 797.92,
+        "text": " Okay? There is also a concept of a jump index. If I make jump index 2. Assume. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 797.92,
+        "end": 808.48,
+        "text": " I make it 1, 4, 2. So what will happen? In my original marks. In that, it will start taking values one by one. So see, it will do slicing from 1 to 4."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 808.48,
+        "end": 813.9200000000001,
+        "text": " Okay? So from 1 to 4. First of all, I will get 5, 6 and Harry. Okay? Then what will it do?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 813.9200000000001,
+        "end": 820.88,
+        "text": " First of all, it will take the first value. Okay? Then it will take 1, 2. Then it will keep taking 1, 2. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 820.88,
+        "end": 829.44,
+        "text": " So after doing 1, 2, it is over. That's why 5 and Harry came here. To explain it a little bit. I will tell you a little more. You see here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 830.88,
+        "end": 838.64,
+        "text": " I have increased some more values in it. So see, if I run it now. So see what is getting here. First of all, you will get marks. Which is the whole marks."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 838.8,
+        "end": 848.4,
+        "text": " Then marks 1 minus 1 means marks 1 and 4. Not even 1 and 4, sorry. Its length has changed now. So length of this whole minus 1. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 848.4,
+        "end": 858.08,
+        "text": " So whatever it is, okay? I do one thing. Here I make it 1, 2, 8. 0, 1, 2, 3, 4, 5, 6, 7, 8. Yes, okay."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 858.08,
+        "end": 866.16,
+        "text": " It will be removed. Now see, 1 to 8. First of all, it will do marks 1 to 8. I make it 8 here. So that I can see how much is marks 1 to 8."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 867.28,
+        "end": 873.28,
+        "text": " Okay? So here I am waiting for it. Marks 1 to 8 is this. 5, 6, Harry, true. 6, 7, 2."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 873.28,
+        "end": 881.04,
+        "text": " Now because I have given jump index 2 here. So what will it do? First of all, it will print 5. Then it will print 1, 2, Harry. Then it will print 1, 2, 6."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 881.04,
+        "end": 887.68,
+        "text": " Then it will print 1, 2, 2. If I do 3 in the same jump index. Then what will it do? It will jump 3 times. I will show you how."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 887.68,
+        "end": 897.92,
+        "text": " First of all, what will I get to see? First of all, it will bring the value of marks 1, 8 here. See this is my marks 1, 8 value. Whenever you have to solve such a question. First of all, you do slicing."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 897.92,
+        "end": 906.7199999999999,
+        "text": " Take out marks 1, 8. How much is it? This is my marks 1, 8. Now see what I will do? Because 1, 8, 3 is my jump index 3."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 906.7199999999999,
+        "end": 913.1999999999999,
+        "text": " So I will take the first value first. Okay? I took it. Then 1, 2, 3. I will take this value. Then 1, 2, 3."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 913.1999999999999,
+        "end": 920.24,
+        "text": " I will take this value. Now I can't go ahead. Now because I can't go ahead. That's why there is no point of it. Okay? If I make it 9."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 920.24,
+        "end": 929.36,
+        "text": " I will make it 9 and show you. I will make it 9 here too. And I will run and show it. So what will be the value of 1, 9? The value of marks 1, 9 will be this."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 929.36,
+        "end": 935.6,
+        "text": " Okay? Now because the jump index is 3. First of all, 5 will come. 1, 2, 3. Then true will come. 1, 2, 3."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 935.6,
+        "end": 940.96,
+        "text": " Then 2 will come. I can't go in 1, 2, 3. It will stop. So that's why we will see this. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 940.96,
+        "end": 946.96,
+        "text": " So this is how the jump index works. I hope you understood. Okay? Read this. What I have told you here. Go through it."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 946.96,
+        "end": 953.12,
+        "text": " Okay? You will like it. You will understand. Okay? Now if you keep these positive indices like this. Then convert the positive to negative."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 953.12,
+        "end": 958.96,
+        "text": " Convert the negative to positive. Okay? If you leave the colon, colon. Okay? If you leave the marks, colon, colon."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 958.96,
+        "end": 966.88,
+        "text": " Then. Here Python will automatically put 0. And here it will put the length of marks. Length of marks. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 966.88,
+        "end": 975.12,
+        "text": " If you write like this. Marks 1, colon. You write like this. So what will happen? Python will automatically put the length of marks here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 975.12,
+        "end": 982.08,
+        "text": " Okay? If you leave it empty. And if you write 1, colon, 7. Or you write this. If you write empty colon 7."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 982.08,
+        "end": 991.2800000000001,
+        "text": " Then Python will automatically put 0 here. Okay? So whenever you get to see this kind of thing. Then in the starting Python will put 0. In the ending, whatever is your list will put len of."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 991.2800000000001,
+        "end": 997.12,
+        "text": " Okay? I hope that's not confusing. You are understanding. Okay? Now here I have given many examples."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 997.12,
+        "end": 1003.84,
+        "text": " You have to see them. Negative indices. Some confusing things have also been told. Because questions are asked. What do you have to do?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1003.84,
+        "end": 1010.24,
+        "text": " Do a simple thing. First of all, convert the negative to positive. And after that. Our work. That."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1010.24,
+        "end": 1014.4,
+        "text": " Have to do. Continue. Okay? Now see here. I have given many examples."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1014.4,
+        "end": 1024.72,
+        "text": " You have to try all of them. Okay? So now I will tell you about list comprehension. I hope that today's video is not going too long. But there are many concepts."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1024.72,
+        "end": 1034.08,
+        "text": " Which I want to learn directly in today's video. What is list comprehension? What does list comprehension do? That you are generating a list on the fly. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1034.08,
+        "end": 1039.44,
+        "text": " What are you doing? You are generating a list on the fly. So what will we do? We will write print here. And."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1039.76,
+        "end": 1047.28,
+        "text": " I have put a list comprehension here. List comprehension means. I am generating a list on the fly. In fact, let's not print. Let's write a name."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1047.8400000000001,
+        "end": 1058.8,
+        "text": " I want to make a list named LST. I will say LST is equal to square brackets. I will say I. For I in range. 45 or 4."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1058.8,
+        "end": 1064.24,
+        "text": " Okay? 45 will be too many numbers. 4. Okay? So this is list comprehension."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1064.24,
+        "end": 1072.0800000000002,
+        "text": " What will happen? For I in range 4. 0, 1, 2, 3. These 4 values will come. So these 4 values will come here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1072.0800000000002,
+        "end": 1077.68,
+        "text": " 0, 1, 2, 3. Will come in the list. I will show you. So as you can see. 0, 1, 2 and 3."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1077.68,
+        "end": 1086.96,
+        "text": " I am getting to see here. Now I wanted to multiply it by I. I could also do it. And if I multiply it by I. Then I will get 0, 1, 4 and 9."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1086.96,
+        "end": 1093.2,
+        "text": " Will be printed. I can write anything here. I can write any expression. It will be evaluated. Will become an element of my list."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1093.2,
+        "end": 1100.0800000000002,
+        "text": " Okay? And this work will be for every I. And if I want. I can make another list from a list. Here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1100.0800000000002,
+        "end": 1106.72,
+        "text": " By iterating a list. So list comprehension. Can be very complex. Now suppose I say. That I want to go up to 10."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1106.72,
+        "end": 1115.3600000000001,
+        "text": " Now I can also put a condition here. Okay? This is one thing. I make another copy of it. I can also put a condition here."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1115.3600000000001,
+        "end": 1122.3200000000002,
+        "text": " I will say. If I percent 2. Is equal to equal to 0. That is, if I is divisible by 2. Then only I want."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1123.04,
+        "end": 1130.16,
+        "text": " I to be in the list. I want to keep this expression. I want to keep it in the list. When this condition is true. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1130.16,
+        "end": 1137.0400000000002,
+        "text": " When this condition is true. And if I run it now. Then you see. Only even numbers will come here. 0 came."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1137.0400000000002,
+        "end": 1141.2,
+        "text": " 2 came. 4 came. 6 came. And 8 came. 7 did not come."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1141.2,
+        "end": 1146.16,
+        "text": " 5 did not come. 3 did not come. Okay? 1 also did not come. So by putting a condition like this."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1146.16,
+        "end": 1153.1200000000001,
+        "text": " My list comprehension. Which is. I can change. I can take some selective values in it. Okay?"
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1153.68,
+        "end": 1158.96,
+        "text": " I hope this thing is clear to you. Go through this. There are other examples in this. You guys see. Run it."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1158.96,
+        "end": 1163.52,
+        "text": " Copy the code. Run it. And you will enjoy it more. Okay? That's all for now."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1163.52,
+        "end": 1173.92,
+        "text": " I know the video has become a little long. But I wanted to give a very good introduction of the list to you all. That's why I have kept this video a little long. I hope you guys are not tired. Today's day 22 has become a little long."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1173.92,
+        "end": 1179.52,
+        "text": " But sometimes the day is small. Sometimes it is big. Sometimes there is exercise. So that day is rest. But you guys have to be ready."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1179.52,
+        "end": 1183.8400000000001,
+        "text": " If a big day has come. Then there is no tension. Will do. Okay? That's all for now."
+    },
+    {
+        "Video number": "1",
+        "Title": "Lists in python",
+        "start": 1183.9199999999998,
+        "end": 1188.1599999999999,
+        "text": " Do access this playlist. And I will see you next time."
+    }
+]

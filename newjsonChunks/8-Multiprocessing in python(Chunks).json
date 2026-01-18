@@ -1,0 +1,618 @@
+[
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 0.0,
+        "end": 26.36,
+        "text": " Today I will tell you how to do multiprocessing with the help of Python programming. Let's go to the computer screen and let's get started. Intro Guys, this happens many times when we want to run multiple processes by using one program. That is, our Python program will spawn a lot of child processes."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 26.36,
+        "end": 48.239999999999995,
+        "text": " Spawn is a term that means starting a process. Now you will say that what is the need for me to do all this, I am already using multithreading and I am happy with it. Now I want to tell you that multithreading and multiprocessing are a little different in themselves. Now there is a little difference in the process and thread. If you have multiple CPUs, then you can use them by using processes."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 48.239999999999995,
+        "end": 71.6,
+        "text": " If you are using threading, then it is easy to spawn threads, it is easy, it happens in less time. Now threading vs processing is a very big topic of the operating system. But you can understand that threads are lightweight, threads are inside a process. But the processes are a big job parallel to the CPUs. If you want to execute a heavy task, then you use the process."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 71.6,
+        "end": 95.88,
+        "text": " In today's video, we will see how multiprocessing is done with the help of Python. And how similar it is to threading, you will also laugh at seeing it. You will say that I know this, I know this, you know it, I just have to tell you that you know it. So come here, we write the code for it. And the first thing I want to tell you is that you import it like this."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 95.88,
+        "end": 114.16000000000001,
+        "text": " And after importing, what will I do, I will make a sleep function here. Let's do one thing, this time we don't make a sleep function, we don't make a demo function. This time we make a download file function. Which will download the file from the URL. Now this is amazing because if we do something in actual, it will be fun."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 114.16000000000001,
+        "end": 137.28,
+        "text": " So I do one thing here, in 100 days of code, in the last REPL, in the last of last I guess REPL. In which I told you about async I O. I wrote a function with the help of request module. With the help of request module, we were downloading files from the internet. So now I want to tell you that how can it be done parallelly, download."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 137.4,
+        "end": 158.16,
+        "text": " Now I have to open this REPL, what will I do here, I will write pass here. And here I will make a list of URLs. Because I want to give you a real feeling, I want to give you real fun. And here I will do images URL demo. List of images, give me something."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 158.16,
+        "end": 177.84,
+        "text": " Here webp image gallery, see here I got something. Open link in new tab, side by side compression. What is this, reproducing the images, files below. I will do one thing, I will get something here. Random image, yes it is giving random image."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 177.84,
+        "end": 196.32,
+        "text": " Great, this is a good thing. It is giving random image, great. So here you can see what we are doing. I will do one thing, I will get a specific image by adding slash id slash image to the start of the URL. You can find a list of images here."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 197.2,
+        "end": 220.95999999999998,
+        "text": " So what I have to do is, I want to download all these images. Now this is a URL of the image. But what I want, I want that I will get this image again and again or not. I want a list of images, in which I will get a lot of images. I will do one thing, I will take a random image."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 220.95999999999998,
+        "end": 239.20000000000002,
+        "text": " And I will change 200 by 300 to 2000 by 3000. To get square image just at the size. So I will do one thing, first I have to get this function from here. Which is downloading. And second thing I have to do is, I have to put this in my program."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 239.20000000000002,
+        "end": 249.20000000000002,
+        "text": " So I have a lot of work. So I will do one thing, I will write in URL. I will write this with a list comprehension. And I will write here. Or I don't have to write in URL."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 249.20000000000002,
+        "end": 259.2,
+        "text": " There is no need to write in URL. There is no need to write in URL. There is no need to write in URL. It will download a different image every time. Now what I will do is, I will download a file."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 259.2,
+        "end": 269.2,
+        "text": " I will do URL. And I will do name. From which name I want to save this. Now I will download this code. Oops."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 269.2,
+        "end": 279.2,
+        "text": " I have to do ctrl c. Not ctrl x. Now I did this. And I will do import request. Import request."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 279.2,
+        "end": 289.2,
+        "text": " And here I will do URL. And what will happen to name. I will name it here. So I will do one thing. I will name it."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 289.2,
+        "end": 299.2,
+        "text": " What kind of image is this? It is giving jpg images. So I will name it here. Name.jpg. I will make an f-string."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 299.2,
+        "end": 309.2,
+        "text": " It will write. Now it is correct. Why is it giving red? Contains server response to an HTTP request. Unmatched bracket."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 309.2,
+        "end": 319.2,
+        "text": " What happened? Now it is correct. So I said URL is equal to this. Now if I want to download one by one. I will write here."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 319.2,
+        "end": 329.2,
+        "text": " For underscore in range. You may ask what is underscore? It is a throwaway variable. I did not need any value of i. So I used underscore."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 329.2,
+        "end": 339.2,
+        "text": " Now what I will do is. I will say download file. URL will come first. And the second one is name. So I will do one thing."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 339.2,
+        "end": 349.2,
+        "text": " I will give i in name. So that. 1.jpg, 2.jpg. 5.jpg. So if I run it."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 349.2,
+        "end": 359.2,
+        "text": " I will show you. All files are downloaded. If I increase the resolution. It will be a little difficult. I will do one thing."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 359.2,
+        "end": 369.2,
+        "text": " I will name it. File. If I run it. File 0, File 1, File 2. File 0 is made."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 369.2,
+        "end": 379.2,
+        "text": " Now it is File 1. Now it is File 2. Now it is File 3. Now it is File 3. It is running slowly."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 379.2,
+        "end": 389.2,
+        "text": " I increased the resolution. You may think it was fast. What is the use of doing all this? It is useful. If you deal with big files."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 389.2,
+        "end": 399.2,
+        "text": " Now I will run the cleaning. I will delete all this. After deleting all this. I will show you. I will do one thing."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 399.2,
+        "end": 409.2,
+        "text": " I will make a folder. I will make a folder. I will slash the file. I will download it. I will delete the folder."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 409.2,
+        "end": 419.2,
+        "text": " I will run it. You can see. The folder with files is populated. You can see. The folder with files is populated."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 419.2,
+        "end": 429.2,
+        "text": " 0, 1, 2, 3. You can see. It is downloading. Now I will show you how to parallel. Multiprocessing is very similar."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 429.2,
+        "end": 439.2,
+        "text": " Multiprocessing is very similar. You have to write. p is equal to. You have to write. I don't want to download the file url."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 439.2,
+        "end": 449.2,
+        "text": " I don't want to download the file url. I want to do. Multiprocessing.process Multiprocessing.process What will be my target?"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 449.2,
+        "end": 459.2,
+        "text": " What will be my target? Download file. What will be my args? My args. My url."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 459.2,
+        "end": 469.2,
+        "text": " My url. My url. My url. My url. My url."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 469.2,
+        "end": 479.2,
+        "text": " My url. My url. My url. My url. Oops."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 487.2,
+        "end": 503.2,
+        "text": " Overwrite. Delete files. Delete files. OK. OK."
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 503.2,
+        "end": 514.4,
+        "text": " OK. so I have made a process here now I will start p.start I will say p.start do I want to join this? No I don't"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 514.4,
+        "end": 524.78,
+        "text": " start it and at the end what I will do is I want to join all of them one by one so I can do something like this I can say prose is equal to"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 524.78,
+        "end": 539.74,
+        "text": " now I will say prose.append p now I will do for p in prose I will say p.join at the end I will explain why I am joining them"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 539.74,
+        "end": 553.24,
+        "text": " otherwise you will say why are you doing it in air so I made a process started that process then I appended prose.append so at the end when this loop will be running"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 553.24,
+        "end": 568.8199999999999,
+        "text": " then I will have all the processes which will be started now I can join them by iterating I can join them by iterating what I will do after joining I will expect that my files folder"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 568.8199999999999,
+        "end": 584.6999999999999,
+        "text": " will be populated and it will be parallel so let's do one thing, I will write print finished downloading and here I will write the name of the variable"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 584.6999999999999,
+        "end": 600.02,
+        "text": " and here I will write name I will put an f string here started downloading started downloading name, finished downloading name so I will run it"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 600.02,
+        "end": 615.14,
+        "text": " it started all at once now it is saying files to oops I made it files to, it doesn't exist so I made a mistake, no problem let's run it again all started downloading at once"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 615.14,
+        "end": 629.0799999999999,
+        "text": " now see it is downloading see how much time it took now see what I am going to do do not try this at home I am just kidding"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 629.0799999999999,
+        "end": 644.4599999999999,
+        "text": " I am downloading 50 files at once don't try it by doing 5000 it will be a big problem I am downloading 50 images now see it will start 50 at once"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 644.4599999999999,
+        "end": 659.46,
+        "text": " it started at once now it is downloading at once what a speed this is called multiprocessing module see it is downloading in different order"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 659.46,
+        "end": 675.46,
+        "text": " as it is downloading it is printing it is fun if you open your activity monitor which is very less in mac, most of the people are in windows now it is saying"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 675.46,
+        "end": 690.46,
+        "text": " see how it opens now see here it is showing many processes now you can see which network is using the most"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 690.46,
+        "end": 706.46,
+        "text": " why it is not showing it is showing which process is using the most if I run it again and show you activity monitor see how many processes it is showing"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 706.46,
+        "end": 721.46,
+        "text": " I am also a fool that I am seeing here so what I have to do I am not cutting this part I just want to show you"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 721.46,
+        "end": 737.46,
+        "text": " I am searching in activity monitor no problem I will write python3 and paste this script so let me do one thing I will write this in VS code"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 737.46,
+        "end": 752.46,
+        "text": " so I will press ctrl n and paste this and press ctrl s and where I will save this I will save this in test script.py"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 752.46,
+        "end": 767.46,
+        "text": " where I will save this I will save this in harry folder now I will run this but there will be no folder named files so to get rid of this"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 767.46,
+        "end": 782.46,
+        "text": " I have put this test script in harry folder I will delete this I will delete this I will not keep this script in my computer"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 782.46,
+        "end": 797.46,
+        "text": " I will right click and I will say I have got the terminal I will make a directory and run this and run this"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 797.46,
+        "end": 812.46,
+        "text": " and run this what kind of joke is this it is not a joke it is just a joke and I will end my joke"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 812.46,
+        "end": 827.46,
+        "text": " what is this so to get rid of this if name equals to main I have told you about this in previous lessons now we will run this and see the activity monitor"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 827.46,
+        "end": 842.46,
+        "text": " it has started if I show you in network I should see many python related processes why I am not seeing you can see many python related processes"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 842.46,
+        "end": 857.46,
+        "text": " you can see many python related processes and they are getting completed I have not shown you yet but they are getting completed they did not give us a chance to see"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 857.46,
+        "end": 872.46,
+        "text": " if I sort this you can see many python related processes and after running you can see many python related processes"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 872.46,
+        "end": 887.46,
+        "text": " and after running you can see I will do one thing I will show you in control backspace"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 887.46,
+        "end": 902.46,
+        "text": " I will show you I will close this and after coming back I will close this and I hope you understood"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 902.46,
+        "end": 917.46,
+        "text": " don't do this your apple will hang don't say this there is a lot of data I hope you understood"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 917.46,
+        "end": 932.46,
+        "text": " now you will say you can use it the answer is yes we have thread pool executor and process pool executor"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 932.46,
+        "end": 947.46,
+        "text": " and other steps are similar so let's do this so let's do this instead of doing this I will say"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 947.46,
+        "end": 972.46,
+        "text": " I will copy and paste you can see we have pasted you can see we have pasted"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 972.46,
+        "end": 987.46,
+        "text": " we can see I will import concurrent.futures Now I am saying that concurrent.futures is processful executor Now what you have to do is to loop this and do executor.map"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 987.46,
+        "end": 997.46,
+        "text": " Now I will show you one thing I will do executor.map I will do it in my own way Results is equal to Results is equal to"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 997.46,
+        "end": 1007.46,
+        "text": " executor.map And here what I will do Download file And here I will say URL is my first argument"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1007.46,
+        "end": 1017.46,
+        "text": " And i is my second argument Now I will say Oops, what is i? So I will do one thing I will"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1017.46,
+        "end": 1027.46,
+        "text": " I will have to Random.randint Here I will do one thing I will do here I will do l"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1027.46,
+        "end": 1037.46,
+        "text": " I will have to make l list I will write here I for i in range 60 Now here"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1037.46,
+        "end": 1047.46,
+        "text": " I will write For r in results I will write r in results Now what I can do here"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1047.46,
+        "end": 1057.46,
+        "text": " Executor.map I will say print r Print r So As soon as I run it"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1057.46,
+        "end": 1067.46,
+        "text": " It should print No scheme was supplied So as you can see here I have made l1 here In which all my urls were"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1067.46,
+        "end": 1077.46,
+        "text": " And I made l2 list in which all my i's were Now you see here It has downloaded all these files It should give"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1077.46,
+        "end": 1087.46,
+        "text": " 49 to 59 Now it has not given me It is running And it is downloading It has done up to 58"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1087.46,
+        "end": 1097.46,
+        "text": " And all files It is downloading parallel And now you can see It has downloaded all files And given me"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1097.46,
+        "end": 1107.46,
+        "text": " So in this way you can use concurrent.features Remember whenever there are multiple Arguments then what you have to do You have to write something like this First list of the first argument"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1107.46,
+        "end": 1117.46,
+        "text": " List of the second argument If the first argument is url Then you have to give the list of url As I have given here Now you must have understood how to use"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1117.46,
+        "end": 1127.46,
+        "text": " Multiprocessing in python Now see any topic If you have heard something Maybe Siri has heard something I will close it"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1127.46,
+        "end": 1137.46,
+        "text": " So whenever you have to do any topic Deep dive You can do it from here You will get 10 more things You will get 10 more functions"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1137.46,
+        "end": 1147.46,
+        "text": " Explore them This way human knowledge is deep Now I will never claim that All functions in programming All are written here"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1147.46,
+        "end": 1157.46,
+        "text": " I also encounter new things In my life and this is called learning And that's how we all grow So I want to tell you this thing So that's it for now"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1157.46,
+        "end": 1167.46,
+        "text": " If you have not written a review yet You will come here now And I don't know You open this first video And you will tell"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1167.46,
+        "end": 1177.46,
+        "text": " If any new person is going to start this course So how is this course for him You have to do it You have to open it And write here"
+    },
+    {
+        "Video number": "8",
+        "Title": "Multiprocessing in python",
+        "start": 1177.46,
+        "end": 1203.46,
+        "text": " Please write a review That's it for now Thank you so much for watching And I will see you next time Thank you for watching it"
+    }
+]
