@@ -15,13 +15,13 @@ def createEmbeddings(text) :
       return embedding
 
 if __name__ == "__main__" :
-      files = os.listdir("C:\\Users\\yash3\\Desktop\\RAG\\jsonChunks") #listing all json files
+      files = os.listdir("C:\\Users\\yash3\\Desktop\\RAG\\newjsonChunks") #listing all json files
       data = []
       chunk_id = 0 
 
       for json_file in files :
       #   print(json_file)
-            with open(f"C:\\Users\\yash3\\Desktop\\RAG\\jsonChunks\\{json_file}") as f:
+            with open(f"C:\\Users\\yash3\\Desktop\\RAG\\newjsonChunks\\{json_file}") as f:
                   content = json.load(f) #loading each json file
             print(f"Creating embeddings for {json_file}")
             embeddings = createEmbeddings([c['text'] for c in content]) #makes embedding for a file (all text of it)
