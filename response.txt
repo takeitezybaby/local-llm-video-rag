@@ -1,0 +1,7 @@
+ Hello! To learn about dictionaries in Python, I recommend watching Video number 5 titled "Dictionaries in python". The specific information you are looking for can be found between the timestamps of 3.0 seconds to 4.48 seconds and from 188.16 seconds to 194.32 seconds in this video.
+
+In Video number 5, you will learn about the basic concept of dictionaries and how they are similar to home dictionaries where meanings of words are stored. Additionally, at around the 188.16-second mark, you will find out that from Python 3.7 onwards, dictionaries are ordered.
+
+For further exploration related to your topic, I recommend Video number 6 titled "Dictinoaries method". In this video, you can learn about various methods of dictionaries and the order of dictionaries in Python 3.7 and beyond.
+
+I hope this helps! Let me know if you have any other questions regarding the basics of Python.
