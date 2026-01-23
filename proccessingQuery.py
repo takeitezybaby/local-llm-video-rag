@@ -34,7 +34,7 @@ temp_df = df.iloc[max_ind]
 
 prompt = f'''
 So I'm making a RAG based interface for my uploaded videos. the videos are about basics of python. Below are the subvideo chunks containing title, video number, start time in seconds, end time in seconds and the text at that time
-{temp_df[["title", "Video number", "start", "end", "text"]].to_json(orient = "records")}
+{temp_df[["Title", "Video number", "start", "end", "text"]].to_json(orient = "records")}
 ------------------------------------------------------------
 {incomingQuery}
 Here's the incoming query of the user. Guide the user to appropriate timeline and video, where he can find the answer to his question(mention all specifics like video title, number, timestamp, what's there in that  video etc.).Also, tell the other videos that the user can refer to related to his topic(only refer the user to the additional video and only state the content in it). If the user asks unrelated question, tell him you can only answer related to the course sepecified above
@@ -50,3 +50,4 @@ response = LLMresponse(prompt)
 print(response)
 with open("response.txt", "w") as f :
      f.write(response)
+
