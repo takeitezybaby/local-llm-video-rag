@@ -38,8 +38,8 @@ The entire pipeline runs locally using Ollama models.
 # How to Run
 
 1. Run "mp3Conversion.py" ( ensure ffmpeg is installed in your system and path is also added )
-2. Run "SpeechToText.py" ( resource intensive, execution time depends on the length of your videos and your gpu )
-3. Run "createChunks.py" and "newChunks.py"
+2. Run "SpeechToText.py" ( make sure you have a sample.mp3 to test if whisper is working as intended )
+3. Run "createChunks.py" and "newChunks.py" ( resource intensive, execution time depends on the length of your videos and your gpu )
 4. Run "readChunks.py"
 5. Execute "proccessingQuery.py" locally on your system.
 After execution, the user can input a question in the CLI.
