@@ -1,0 +1,13 @@
+QUERY
+Ask a Question : is nlp taught in this course?
+
+
+
+
+RESPONSE
+Greetings! In the course you're referring to, NLP (Natural Language Processing) is not explicitly mentioned as a topic. However, Python has several libraries for handling text data and performing basic NLP tasks such as tokenization, stemming, and simple sentiment analysis.
+Here are some videos that might be related to your question:
+1. Title: Libraries in Python (Video number: 4) - In this video, you'll learn about various libraries available in Python, including some like NLTK (Natural Language Toolkit) and TextBlob which can be used for NLP tasks.
+2. Title: Regular Expressions (Video number: 3) - While not an NLP library per se, understanding regular expressions is essential for working with text data in Python.
+As for your question, a comprehensive course on NLP using Python would likely delve deeper into topics like part-of-speech tagging, named entity recognition, and machine translation. If you're interested in such a course, I recommend looking up specific resources dedicated to Python and NLP.
+I hope this helps! Let me know if you have any other questions about the basics of Python.
