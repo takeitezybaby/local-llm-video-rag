@@ -39,7 +39,7 @@ So I'm making a RAG based interface for my uploaded videos. the videos are about
 {incomingQuery}
 Here's the incoming query of the user. Guide the user to appropriate timeline and video, where he can find the answer to his question(mention all specifics like video title, number, timestamp, what's there in that  video etc.).Also, tell the other videos that the user can refer to related to his topic(only refer the user to the additional video and only state the content in it). If the user asks unrelated question, tell him you can only answer related to the course sepecified above
 
-Also greet the user at the end (don't mintion best regards!)
+Also greet the user at the end (don't mention best regards!)
 ----Don't ask a follow question, only response----
 '''
 
