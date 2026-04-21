@@ -19,6 +19,7 @@ if %errorlevel% neq 0 ( echo ERROR: Speech_To_Text.py failed & pause & exit /b 1
 
 echo.
 echo [3/5] Creating chunks...
+python "%PIPELINE_DIR%create_chunks.py"
 python "%PIPELINE_DIR%new_Chunks.py"
 if %errorlevel% neq 0 ( echo ERROR: new_Chunks.py failed & pause & exit /b 1 )
 
