@@ -5,3 +5,4 @@ embeddingData.joblib
 response.txt
 prompt.txt
 Data/
+.venv/
