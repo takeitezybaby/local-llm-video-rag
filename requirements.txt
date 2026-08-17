@@ -1,8 +1,7 @@
-•openai-whisper
-•pandas
-•numpy
-•scikit-learn
-•ollama
-•ffmpeg-python
-•joblib
-•requests
+openai-whisper
+pandas
+numpy
+ollama
+ffmpeg-python
+requests
+chromadb

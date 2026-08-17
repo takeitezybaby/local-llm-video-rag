@@ -1,10 +1,15 @@
-import pandas as pd
-import joblib
-from sklearn.metrics.pairwise import cosine_similarity
+import chromadb
 from readChunks import createEmbeddings
-import numpy as np
 import json 
 import requests
+
+
+#connecting to local chromadb server
+client = chromadb.PersistentClient(path="Data/chromaDB") #path to store the database
+
+
+#getting the collection from the database
+collection = client.get_collection(name="video_transcripts")
 
 def LLMresponse(prompt) :
       r = requests.post("http://localhost:11434/api/generate", json=
@@ -18,29 +23,55 @@ def LLMresponse(prompt) :
 
       
 
-df = joblib.load("embeddingData.joblib")
 
 incomingQuery = input("Ask a Question : ")
 questionEmbedding = createEmbeddings([incomingQuery])
 
 
 #Finding most similar embeddings
-Similarities = cosine_similarity(np.vstack(df["Embedding"]),questionEmbedding).flatten()
-top_picks = 10
-max_ind =  Similarities.argsort()[::-1][0:top_picks]
-#making new dataframe out of the top results
-temp_df = df.iloc[max_ind]
+results = collection.query(
+      query_embeddings=questionEmbedding,
+      n_results=10
+)
+
+context = []
+
+#iterating through the results to get the context
+
+#structuring list for easy reading by the llm
+for metadata, document in zip( results['metadatas'][0], results['documents'][0]):
+      context.append({
+            "Video number" : metadata["video_number"],
+            "Title" : metadata["Title"],
+            "start_time" : metadata["start_time"],
+            "end_time" : metadata["end_time"],
+            "text" : document
+      })
+json_context = json.dumps(context, indent=4) #converting to json for easy reading by the llm
 
 
 prompt = f'''
-So I'm making a RAG based interface for my uploaded videos. the videos are about basics of python. Below are the subvideo chunks containing title, video number, start time in seconds, end time in seconds and the text at that time
-{temp_df[["Title", "Video number", "start", "end", "text"]].to_json(orient = "records")}
-------------------------------------------------------------
-{incomingQuery}
-Here's the incoming query of the user. Guide the user to appropriate timeline and video, where he can find the answer to his question(mention all specifics like video title, number, timestamp, what's there in that  video etc.).Also, tell the other videos that the user can refer to related to his topic(only refer the user to the additional video and only state the content in it). If the user asks unrelated question, tell him you can only answer related to the course sepecified above
+You are a friendly, knowledgeable Python tutor helping a student navigate their course videos. Talk directly to the student in a warm, encouraging, and natural conversational tone (use "you" and "your", never refer to them as "the student").
 
-Also greet the user at the end (don't mention best regards!)
-----Don't ask a follow question, only response----
+=== VIDEO TRANSCRIPT CONTEXT ===
+{json_context}
+
+=== USER QUESTION ===
+{incomingQuery}
+
+=== GUIDELINES ===
+1. SPEAK DIRECTLY & NATURALLY:
+   - Start by directly answering their question in 1–2 simple, friendly sentences.
+   - Naturally guide them to the exact spot to watch it: mention the Video Title, Video Number, and the timestamp range in MM:SS format (e.g., "Check out Video 1 ('Lists in Python') from 00:45 to 01:00...").
+   - Avoid robotic headers like "Primary Recommendation" or "Related Videos". Instead, weave your suggestions into natural paragraphs.
+
+2. HELPFUL NEXT STEPS:
+   - If other videos in the context build on this topic (like methods or related data types), naturally recommend them as helpful next steps (e.g., "Once you're comfortable with that, Video 2 dives into list methods...").
+
+3. STRICT COURSE BOUNDARIES:
+   - Base your help ONLY on the provided video transcripts.
+   - If they ask something outside this course, kindly let them know: "That topic isn't covered in our Python course videos, but feel free to ask anything about what's in the course!"
+   - Do NOT ask follow-up questions at the end. Keep the response concise, warm, and helpful.
 '''
 
 with open("prompt.txt", "w") as f:
