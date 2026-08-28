@@ -5,3 +5,8 @@ ollama
 ffmpeg-python
 requests
 chromadb
+ragas==0.2.14
+datasets
+langchain-ollama==0.2.2
+langchain-community==0.3.31
+langchain-core==0.3.86
